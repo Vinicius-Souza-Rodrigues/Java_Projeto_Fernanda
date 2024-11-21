@@ -12,4 +12,53 @@ public class Pessoa {
         this.telefone = telefone;
         this.senha = senha;
     }
+    //get's e set's
+    public String getNome() {
+        return nome;
+    }
+
+    public void setCPF(String CPF) {
+        this.CPF = CPF;
+    }
+
+    public String getCPF() {
+        return CPF;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getSenha() {
+        return senha;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getEndereco() {
+        return endereco;
+    }
+
+    public String getTelefone() {
+        return telefone;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void setEndereco(String endereco) {
+        this.endereco = endereco;
+    }
+
+    public void setSenha(int senha) {
+        this.senha = senha;
+    }
+
+    public void setTelefone(String telefone) {
+        this.telefone = telefone;
+    }
+
 }
